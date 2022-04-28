@@ -32,7 +32,7 @@ main {
 }
 
 
-.fundo {
+main .fundo {
    background: linear-gradient(.5turn, orangered, orange);
     width: 380px;
     height: 380px;
@@ -42,14 +42,14 @@ main {
     padding-top: 30px;
 }
 
-.fundo .container-cabeca, .container-pescoco, .container-corpo, .container-flutuador, .container-ondas {
+main .fundo .container-cabeca, .container-pescoco, .container-corpo, .container-flutuador, .container-ondas {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.fundo .container-cabeca .cabeca {
+main .fundo .container-cabeca .cabeca {
     background: silver;
     width: 150px;
     height: 100px;
@@ -57,7 +57,7 @@ main {
     border: 4px solid #fff;
 }
 
-.fundo .container-cabeca .cabeca .olhos {
+main .fundo .container-cabeca .cabeca .olhos {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -66,7 +66,7 @@ main {
     margin-top: 6px;
 }
 
-.fundo .container-cabeca .cabeca .olhos .olho-direito, .olho-esquerdo {
+main .fundo .container-cabeca .cabeca .olhos .olho-direito, .olho-esquerdo {
     width: 30px;
     height: 30px;
     border-radius: 40px;
@@ -75,7 +75,7 @@ main {
     background: #00bfff;
 }
 
-.fundo .olhos .olho-direito .centro, 
+main .fundo .olhos .olho-direito .centro, 
 .olho-esquerdo .centro {
     background: #000;
     width: 8px;
@@ -84,7 +84,7 @@ main {
     margin: auto;
 }
 
-.fundo .container-cabeca .orelha-direita, .orelha-esquerda {
+main .fundo .container-cabeca .orelha-direita, .orelha-esquerda {
     background: silver;
     width: 25px;
     height: 35px;
@@ -93,12 +93,12 @@ main {
     margin-right: -4px;
 }
 
-.fundo .container-cabeca .orelha-esquerda {
+main .fundo .container-cabeca .orelha-esquerda {
     border-radius: 0 30px 30px 0;
     margin-left: -4px;
 }
 
-.fundo .container-cabeca .cabeca .nariz {
+main .fundo .container-cabeca .cabeca .nariz {
     background: silver;
     border: 3px solid #fff;
     width: 20px;
@@ -108,7 +108,7 @@ main {
     border-radius: 8px;
 }
 
-.fundo .container-cabeca .cabeca .boca {
+main .fundo .container-cabeca .cabeca .boca {
     background: #00bfff;
     border-radius: 20px;
     display: flex;
@@ -121,12 +121,12 @@ main {
     margin-top: 8px;
 }
 
-.fundo .container-cabeca .cabeca .boca span {
+main .fundo .container-cabeca .cabeca .boca span {
     background: #000;
     width: 3px;
 }
 
-.fundo .container-cabeca .antena {
+main .fundo .container-cabeca .antena {
     background: #000;
     width: 5px;
     height: 45px;
@@ -136,7 +136,7 @@ main {
 }
 
 
-.fundo .container-pescoco .pescoco {
+main .fundo .container-pescoco .pescoco {
     background: silver;
     border: 5px solid #fff;
     width: 25px;
@@ -148,11 +148,11 @@ main {
 
 
 
-.fundo .container-corpo {
+main .fundo .container-corpo {
     align-items: initial;
 }
 
-.fundo .container-corpo .corpo {
+main .fundo .container-corpo .corpo {
     background: silver;
     width: 150px;
     height: 130px;
@@ -161,13 +161,13 @@ main {
     border-radius: 0 0 60px 60px;
 }
 
-.fundo .container-corpo .corpo .container-painel {
+main .fundo .container-corpo .corpo .container-painel {
     display: flex;
     width: 100%;
     margin-top: 18px;
 }
 
-.fundo .container-corpo .corpo .container-painel .painel {
+main .fundo .container-corpo .corpo .container-painel .painel {
     background: rgba(138, 138, 138, .7);
     width: 100px;
     height: 72px;
@@ -175,12 +175,12 @@ main {
     border: 5px solid #fff;
 }
 
-.fundo .container-corpo .corpo .container-painel .painel, .reator-energia {
+main .fundo .container-corpo .corpo .container-painel .painel, .reator-energia {
     margin: auto;
     display: block;
 }
 
-.fundo .container-corpo .corpo .container-painel .painel .reator-energia {
+main .fundo .container-corpo .corpo .container-painel .painel .reator-energia {
     background: #00ffff;
     width: 35px;
     border: 4px solid #fff;
@@ -189,14 +189,14 @@ main {
     margin-top: 3px;
 }
 
-.fundo .container-corpo .corpo .container-painel .painel .buttons {
+main .fundo .container-corpo .corpo .container-painel .painel .buttons {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 4px;
 }
 
-.fundo .container-corpo .corpo .container-painel .painel .buttons .btn1, .btn2, .btn3 {
+main .fundo .container-corpo .corpo .container-painel .painel .buttons .btn1, .btn2, .btn3 {
     width: 15px;
     height: 15px;
     border: 2px solid #fff;
@@ -204,16 +204,16 @@ main {
     border-radius: 4px;
 }
 
-.fundo .container-corpo .corpo .container-painel .painel .buttons .btn2 {
+main .fundo .container-corpo .corpo .container-painel .painel .buttons .btn2 {
     background: purple;
 }
 
-.fundo .container-corpo .corpo .container-painel .painel .buttons .btn3 {
+main .fundo .container-corpo .corpo .container-painel .painel .buttons .btn3 {
     background: orangered;
 }
 
 
-.fundo .container-corpo .braco-direito, .braco-esquerdo {
+main .fundo .container-corpo .braco-direito, .braco-esquerdo {
     width: 100px;
     height: 35px;
     border: 5px solid #fff;
@@ -224,7 +224,7 @@ main {
     margin-right: 4px;
 }
 
-.fundo .container-corpo .braco-esquerdo {
+main .fundo .container-corpo .braco-esquerdo {
     transform: rotate(70deg);
     border-radius: 30px 30px 30px 0;
     margin-left: -12px;
@@ -232,7 +232,7 @@ main {
 
 
 
-.fundo .container-flutuador .flutuador {
+main .fundo .container-flutuador .flutuador {
     width: 100px;
     background: silver;
     height: 20px;
@@ -241,13 +241,13 @@ main {
     border-radius: 20px 20px 0 0;
 }
 
-.fundo .container-ondas {
+main .fundo .container-ondas {
     flex-direction: column;
     gap: 5px;
     padding: 5px;
 }
 
-.fundo .container-ondas .onda1, .onda2, .onda3 {
+main .fundo .container-ondas .onda1, .onda2, .onda3 {
     background: transparent;
     border: 3px solid blue;
     width: 45px;
@@ -256,11 +256,11 @@ main {
     transform: rotateX(70deg);
 }
 
-.fundo .container-ondas .onda2 {
+main .fundo .container-ondas .onda2 {
     width: 65px;
 }
 
-.fundo .container-ondas .onda3 {
+main .fundo .container-ondas .onda3 {
     width: 85px;
 }
 
