@@ -37,7 +37,7 @@ main .fundo {
     width: 380px;
     height: 380px;
     margin: auto;
-    padding: 20px 10px 0 10px;
+    padding: 0 10px;
     border-radius: 200px;
     padding-top: 30px;
 }
@@ -274,9 +274,14 @@ footer p {
 
 
 @media screen and (min-width: 601px) {
+    main {
+        padding: 18vh 0;
+    }
+
     main .fundo {
         width: 400px;
         height: 400px;
-        background: purple;
+        padding: 0 15px;
+        padding-top: 40px;
     }
 }
