@@ -277,5 +277,6 @@ footer p {
     main .fundo {
         width: 400px;
         height: 400px;
+        background: purple;
     }
 }
