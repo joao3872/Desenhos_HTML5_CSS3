@@ -4,11 +4,15 @@
 
 * Silre Bot, é o meu primeiro Desenho / Ilustração, com HTML5 e CSS3 !
 
-* Por enquanto, este repositório possui apenas uma ilustração.
+* AnimaOne, é o meu segundo Desenho / Ilustração !
 
-### Imagem do Desenho:
+### Versão Mobile 📱:
 
-<img src="imagens/silre_bot.png" />
+<img src="imagens/mobilee.gif" height="500px" width="260px" />
+
+### Versão Desktop 💻:
+
+<img src="imagens/desktop.gif" />
 
 ### Veja você mesmo:
 
