@@ -4,7 +4,7 @@
 
 * Silre Bot, é o meu primeiro Desenho / Ilustração, com HTML5 e CSS3 !
 
-* AnimaOne, é o meu segundo Desenho / Ilustração !
+* AnimaOne, é o meu segundo Desenho / Ilustração, trata-se de uma Logo !
 
 ### Versão Mobile 📱:
 
